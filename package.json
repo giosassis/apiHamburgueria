@@ -12,6 +12,7 @@
   "dependencies": {
     "consign": "^0.1.6",
     "express": "^4.17.1",
+    "sqlite": "^4.0.23",
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {
