@@ -4,18 +4,22 @@
   "description": "projeto do modulo 4",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "author": "giovana assis",
   "license": "ISC",
   "dependencies": {
     "consign": "^0.1.6",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "sqlite": "^4.0.23",
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
+  },
+  "engines": {
+    "node": "14.17"
   }
 }
