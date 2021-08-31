@@ -1,0 +1,20 @@
+{
+  "name": "hamburgueria",
+  "version": "1.0.0",
+  "description": "projeto do modulo 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "giovana assis",
+  "license": "ISC",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
